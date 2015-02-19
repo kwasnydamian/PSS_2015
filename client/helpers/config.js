@@ -2,6 +2,7 @@
  * Created by damian on 18.02.15.
  */
 Accounts.ui.config({
+    passwordSignupFields: 'USERNAME_ONLY',
     requestPermissions:{},
     extraSignupFields:[{
         fieldName: 'Imie',
@@ -19,16 +20,4 @@ Accounts.ui.config({
 
 });
 
-accountsUIBootstrap3.setLanguage('en');
-accountsUIBootstrap3.map('en', {
-    _resetPasswordDialog: {
-        title: 'Reset hasła',
-        cancel: 'Anuluj',
-        submit: 'Zapisz'
-    },
-    _enrollAccountDialog: {
-        title: 'enroll',
-        cancel: 'Anuluj',
-        submit: 'Zapisz'
-    }
-})
+i18n.setLanguage('pl');
